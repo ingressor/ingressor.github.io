@@ -74,7 +74,7 @@
       msg.style.color='red';
       try{
         const path=atob('YXNzZXRzL3JlZGFjdGVkLnR4dA=='),
-              dest=atob('cmVkYWN0ZWQuaHRtbA=='),
+              dest=atob('aHR0cHM6Ly90b3JuYWRvc3QuZ2l0aHViLmlvL3JlZGFjdGVk'),
               list= (await(await fetch(path)).text())
                 .split('\n').map(s=>s.trim()).filter(Boolean),
               h=await rB7mC2(pwd);
