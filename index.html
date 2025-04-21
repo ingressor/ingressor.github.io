@@ -81,7 +81,7 @@
         msg.textContent=`${h}\nAccess denied`;
         if(list.includes(h)){
           msg.style.color='lime';
-          msg.textContent='Access granted. Redirecting...\nRe-authentication required.';
+          msg.textContent='Access granted. Redirecting\nRe-authentication required';
           setTimeout(()=>window.location.href=dest,1500);
         }
       }catch{
